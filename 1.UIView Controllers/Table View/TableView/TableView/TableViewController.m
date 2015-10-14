@@ -33,15 +33,8 @@
     data = [[NSMutableDictionary alloc] init];    
     // 初始化資料
     [data setValue:[NSMutableArray arrayWithObjects:@"1a", @"1b", @"1c", @"1d", @"1e", @"1f", nil] forKey:@"KEY 1"];
-    [data setValue:[NSMutableArray arrayWithObjects:@"2a", @"2b", @"2c", nil] forKey:@"KEY 2"];
-}
-
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
+    [data setValue:[NSMutableArray arrayWithObjects:@"2a", nil] forKey:@"KEY 2"];
+    data[@"KEY 3"] = [NSMutableArray arrayWithArray:@[@"3a", @"3b"]];
 }
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
@@ -94,10 +87,17 @@
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // 刪除對應的陣列資料
-        [[data objectForKey:[[data allKeys] objectAtIndex:indexPath.section]] removeObjectAtIndex:indexPath.row];
+        NSString *deleteKey = [[data allKeys] objectAtIndex:indexPath.section];
+        [data[deleteKey] removeObjectAtIndex:indexPath.row];
         
+        // 刪除 Cell 的動畫
         [self.tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationRight];
     
+        if ([data[deleteKey] count] == 0) {
+            data[deleteKey] = nil;
+        }
+        
+        // 重載資料
         [self.tableView reloadData];
     }
 }
