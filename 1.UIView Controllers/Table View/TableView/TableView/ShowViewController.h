@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShowView : UIViewController
+@interface ShowViewController : UIViewController
 
 @property (strong, nonatomic) NSString *postData;
 @property (strong, nonatomic) IBOutlet UILabel *iDisplay;

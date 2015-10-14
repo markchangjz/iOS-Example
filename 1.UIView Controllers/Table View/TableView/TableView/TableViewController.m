@@ -7,7 +7,7 @@
 //
 
 #import "TableViewController.h"
-#import "ShowView.h"
+#import "ShowViewController.h"
 
 @interface TableViewController ()
 @property (strong, nonatomic) NSMutableDictionary *data;
@@ -111,14 +111,14 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    ShowView *showView = (ShowView *)segue.destinationViewController;
+    ShowViewController *showVC = (ShowViewController *)segue.destinationViewController;
     
     NSIndexPath *indexPath = self.tableView.indexPathForSelectedRow;
     
     NSString *sectionName = [[data allKeys] objectAtIndex:indexPath.section];
     NSString *cellName = [[data objectForKey:[[data allKeys] objectAtIndex:indexPath.section]] objectAtIndex:indexPath.row];    
     
-    showView.postData = [NSString stringWithFormat:@"%@ , %@", sectionName, cellName];
+    showVC.postData = [NSString stringWithFormat:@"%@ , %@", sectionName, cellName];
 }
 
 @end
