@@ -1,0 +1,7 @@
+square is a member of square class
+square is a kind of square class
+square is a kind of rectangle class
+square is a kind of object class
+square responds to setSize: method
+square class responds to alloc method
+square instance responds to setSize: method

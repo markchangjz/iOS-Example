@@ -1,0 +1,18 @@
+----static array
+Me
+Myself
+I
+----mutable array
+One
+Two
+Me
+Myself
+I
+Three
+----sorted mutable array
+I
+Me
+Myself
+One
+Three
+Two

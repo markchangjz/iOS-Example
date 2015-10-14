@@ -1,0 +1,58 @@
+#!/usr/bin/env ruby
+
+isDarwin = ( `uname`.chomp == "Darwin" )
+
+templateFile = if isDarwin then
+        "Makefile.template"
+    else
+        "GNUmakefile.template"
+    end
+outputFile = templateFile.gsub( ".template", "" )
+
+lines = IO.readlines( templateFile )
+dirs = Dir[ "*/" ]
+
+# fix for non macs
+if !isDarwin then
+    dirs.delete( "exceptions/" )
+end
+
+class IO
+    def IO.writelines( file, lines )
+        File.open( file, "w" ) do |out|
+            lines.each do |line|
+                out.puts( line )
+            end
+        end
+    end
+end
+
+# make individual makefiles
+dirs.each do |dir|
+    dir = dir.gsub( /\//, "" )
+
+    replaced = Array.new
+    lines.each do |line|
+        Dir.chdir( dir )
+        files = Dir[ "*.m" ].join( " " )
+        line = line.gsub( "%program%", dir )
+        line = line.gsub( "%sourcefiles%", files )
+        Dir.chdir( ".." )
+        replaced << line
+    end
+    
+    IO.writelines( "#{dir}/#{outputFile}", replaced )
+end
+
+# make main makefiles
+File.open( "Makefile", "w" ) do |out|
+    out.puts( "all: " )
+    dirs.each do |dir|
+        out.puts( "\tmake -C #{dir}" )
+    end
+    out.puts( "clean:" )
+    dirs.each do |dir|
+        out.puts( "\tmake -C #{dir} clean" )
+    end
+    out.puts( ".PHONY: clean all" )
+end

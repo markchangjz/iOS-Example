@@ -1,0 +1,2 @@
+Running configure will generate all the make files
+Running runall will execute each program in the directories and put it's output in the file "output" for that respective directory

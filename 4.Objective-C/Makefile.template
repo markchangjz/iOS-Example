@@ -1,0 +1,8 @@
+PROGRAM=%program%
+FILES=%sourcefiles%
+
+$(PROGRAM): $(FILES)
+	gcc $(FILES) -o $(PROGRAM) -framework Foundation -fobjc-exceptions
+clean:
+	rm -f $(PROGRAM)
+.PHONY: clean

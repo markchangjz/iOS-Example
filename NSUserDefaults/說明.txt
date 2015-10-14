@@ -1,0 +1,1 @@
+NSUserDefaults 檔案儲存在 ~/Library/Preferences 目錄中, 副檔名:plist

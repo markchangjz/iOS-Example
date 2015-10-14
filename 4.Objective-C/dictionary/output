@@ -1,0 +1,7 @@
+----static dictionary
+1 => one
+2 => two
+3 => three
+----mutable dictionary
+bob@dole.com => Bob
+tom@jones.com => Tom

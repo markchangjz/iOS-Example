@@ -1,0 +1,6 @@
+include $(GNUSTEP_MAKEFILES)/common.make
+
+TOOL_NAME=%program%
+%program%_OBJC_FILES=%sourcefiles%
+
+include $(GNUSTEP_MAKEFILES)/tool.make

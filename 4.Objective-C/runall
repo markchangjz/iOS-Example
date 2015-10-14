@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+dirs = Dir[ "*/" ]
+
+# make individual makefiles
+dirs.each do |dir|
+    dir = dir.gsub( /\//, "" )
+    Dir.chdir( dir )
+    `./#{dir} > output`
+    Dir.chdir( ".." )
+end

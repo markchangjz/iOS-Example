@@ -1,0 +1,12 @@
+Cup level is: 10
+Cup level is: 20
+Cup level is: 30
+Cup level is: 40
+CupWarningException: Cup level is: 50
+CupWarningException: Cup level is: 60
+CupWarningException: Cup level is: 70
+CupWarningException: Cup level is: 80
+CupWarningException: Cup level is: 90
+CupWarningException: Cup level is: 100
+CupOverflowException: Cup level is: 110
+CupUnderflowException: The level is below 0

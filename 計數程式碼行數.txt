@@ -1,0 +1,3 @@
+切換至專案目錄下
+
+find . "(" -name "*.h" -or -name "*.m" ")" -print | xargs wc -l

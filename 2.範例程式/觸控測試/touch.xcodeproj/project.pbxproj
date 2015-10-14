@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4FA55C9159440BE007800A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FA55C8159440BE007800A7 /* UIKit.framework */; };
+		C4FA55CB159440BE007800A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FA55CA159440BE007800A7 /* Foundation.framework */; };
+		C4FA55CD159440BE007800A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4FA55CC159440BE007800A7 /* CoreGraphics.framework */; };
+		C4FA55D3159440BE007800A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C4FA55D1159440BE007800A7 /* InfoPlist.strings */; };
+		C4FA55D5159440BE007800A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FA55D4159440BE007800A7 /* main.m */; };
+		C4FA55D9159440BE007800A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FA55D8159440BE007800A7 /* AppDelegate.m */; };
+		C4FA55DC159440BF007800A7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4FA55DA159440BE007800A7 /* MainStoryboard.storyboard */; };
+		C4FA55DF159440BF007800A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4FA55DE159440BF007800A7 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C4FA55C4159440BE007800A7 /* 觸控測試.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "觸控測試.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FA55C8159440BE007800A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C4FA55CA159440BE007800A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C4FA55CC159440BE007800A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C4FA55D0159440BE007800A7 /* touch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "touch-Info.plist"; sourceTree = "<group>"; };
+		C4FA55D2159440BE007800A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C4FA55D4159440BE007800A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C4FA55D6159440BE007800A7 /* touch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "touch-Prefix.pch"; sourceTree = "<group>"; };
+		C4FA55D7159440BE007800A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C4FA55D8159440BE007800A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C4FA55DB159440BF007800A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C4FA55DD159440BF007800A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C4FA55DE159440BF007800A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4FA55C1159440BE007800A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FA55C9159440BE007800A7 /* UIKit.framework in Frameworks */,
+				C4FA55CB159440BE007800A7 /* Foundation.framework in Frameworks */,
+				C4FA55CD159440BE007800A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4FA55B9159440BE007800A7 = {
+			isa = PBXGroup;
+			children = (
+				C4FA55CE159440BE007800A7 /* touch */,
+				C4FA55C7159440BE007800A7 /* Frameworks */,
+				C4FA55C5159440BE007800A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4FA55C5159440BE007800A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4FA55C4159440BE007800A7 /* 觸控測試.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4FA55C7159440BE007800A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4FA55C8159440BE007800A7 /* UIKit.framework */,
+				C4FA55CA159440BE007800A7 /* Foundation.framework */,
+				C4FA55CC159440BE007800A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4FA55CE159440BE007800A7 /* touch */ = {
+			isa = PBXGroup;
+			children = (
+				C4FA55D7159440BE007800A7 /* AppDelegate.h */,
+				C4FA55D8159440BE007800A7 /* AppDelegate.m */,
+				C4FA55DA159440BE007800A7 /* MainStoryboard.storyboard */,
+				C4FA55DD159440BF007800A7 /* ViewController.h */,
+				C4FA55DE159440BF007800A7 /* ViewController.m */,
+				C4FA55CF159440BE007800A7 /* Supporting Files */,
+			);
+			path = touch;
+			sourceTree = "<group>";
+		};
+		C4FA55CF159440BE007800A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4FA55D0159440BE007800A7 /* touch-Info.plist */,
+				C4FA55D1159440BE007800A7 /* InfoPlist.strings */,
+				C4FA55D4159440BE007800A7 /* main.m */,
+				C4FA55D6159440BE007800A7 /* touch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4FA55C3159440BE007800A7 /* touch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FA55E2159440BF007800A7 /* Build configuration list for PBXNativeTarget "touch" */;
+			buildPhases = (
+				C4FA55C0159440BE007800A7 /* Sources */,
+				C4FA55C1159440BE007800A7 /* Frameworks */,
+				C4FA55C2159440BE007800A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = touch;
+			productName = touch;
+			productReference = C4FA55C4159440BE007800A7 /* 觸控測試.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4FA55BB159440BE007800A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C4FA55BE159440BE007800A7 /* Build configuration list for PBXProject "touch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C4FA55B9159440BE007800A7;
+			productRefGroup = C4FA55C5159440BE007800A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4FA55C3159440BE007800A7 /* touch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4FA55C2159440BE007800A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FA55D3159440BE007800A7 /* InfoPlist.strings in Resources */,
+				C4FA55DC159440BF007800A7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4FA55C0159440BE007800A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FA55D5159440BE007800A7 /* main.m in Sources */,
+				C4FA55D9159440BE007800A7 /* AppDelegate.m in Sources */,
+				C4FA55DF159440BF007800A7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4FA55D1159440BE007800A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4FA55D2159440BE007800A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C4FA55DA159440BE007800A7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4FA55DB159440BF007800A7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4FA55E0159440BF007800A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C4FA55E1159440BF007800A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4FA55E3159440BF007800A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touch/touch-Prefix.pch";
+				INFOPLIST_FILE = "touch/touch-Info.plist";
+				PRODUCT_NAME = "觸控測試";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C4FA55E4159440BF007800A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "touch/touch-Prefix.pch";
+				INFOPLIST_FILE = "touch/touch-Info.plist";
+				PRODUCT_NAME = "觸控測試";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4FA55BE159440BE007800A7 /* Build configuration list for PBXProject "touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FA55E0159440BF007800A7 /* Debug */,
+				C4FA55E1159440BF007800A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FA55E2159440BF007800A7 /* Build configuration list for PBXNativeTarget "touch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FA55E3159440BF007800A7 /* Debug */,
+				C4FA55E4159440BF007800A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4FA55BB159440BE007800A7 /* Project object */;
+}

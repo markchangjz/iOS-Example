@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045D87D21821086300E690FA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045D87D11821086300E690FA /* QuartzCore.framework */; };
+		046D5A2E1821F9DD00AFEE03 /* ticketTemplate.html in Resources */ = {isa = PBXBuildFile; fileRef = 046D5A2D1821F9DD00AFEE03 /* ticketTemplate.html */; };
+		046D5A321822284100AFEE03 /* UIImage+Resizing.m in Sources */ = {isa = PBXBuildFile; fileRef = 046D5A311822284100AFEE03 /* UIImage+Resizing.m */; };
+		0496AE92181E20DB00C58C8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496AE91181E20DB00C58C8A /* UIKit.framework */; };
+		0496AE94181E20DB00C58C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496AE93181E20DB00C58C8A /* Foundation.framework */; };
+		0496AE96181E20DB00C58C8A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496AE95181E20DB00C58C8A /* CoreGraphics.framework */; };
+		0496AE9C181E20DB00C58C8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0496AE9A181E20DB00C58C8A /* InfoPlist.strings */; };
+		0496AE9E181E20DB00C58C8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496AE9D181E20DB00C58C8A /* main.m */; };
+		0496AEA2181E20DB00C58C8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496AEA1181E20DB00C58C8A /* AppDelegate.m */; };
+		0496AEA4181E20DB00C58C8A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496AEA3181E20DB00C58C8A /* Default.png */; };
+		0496AEA6181E20DB00C58C8A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496AEA5181E20DB00C58C8A /* Default@2x.png */; };
+		0496AEA8181E20DB00C58C8A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0496AEA7181E20DB00C58C8A /* Default-568h@2x.png */; };
+		0496AEAB181E20DB00C58C8A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0496AEA9181E20DB00C58C8A /* MainStoryboard.storyboard */; };
+		0496AEAE181E20DB00C58C8A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496AEAD181E20DB00C58C8A /* ViewController.m */; };
+		0496AEB6181E20DB00C58C8A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496AEB5181E20DB00C58C8A /* SenTestingKit.framework */; };
+		0496AEB7181E20DB00C58C8A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496AE91181E20DB00C58C8A /* UIKit.framework */; };
+		0496AEB8181E20DB00C58C8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0496AE93181E20DB00C58C8A /* Foundation.framework */; };
+		0496AEC0181E20DB00C58C8A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0496AEBE181E20DB00C58C8A /* InfoPlist.strings */; };
+		0496AEC3181E20DB00C58C8A /* AirPrintTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0496AEC2181E20DB00C58C8A /* AirPrintTests.m */; };
+		049FEC25181F544E00EC46B9 /* PageRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FEC24181F544E00EC46B9 /* PageRenderer.m */; };
+		049FEC2B181F8B7700EC46B9 /* QRCode.png in Resources */ = {isa = PBXBuildFile; fileRef = 049FEC2A181F8B7700EC46B9 /* QRCode.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0496AEB9181E20DB00C58C8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0496AE86181E20DB00C58C8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0496AE8D181E20DB00C58C8A;
+			remoteInfo = AirPrint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045D87D11821086300E690FA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		046D5A2D1821F9DD00AFEE03 /* ticketTemplate.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ticketTemplate.html; sourceTree = "<group>"; };
+		046D5A301822284100AFEE03 /* UIImage+Resizing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizing.h"; sourceTree = "<group>"; };
+		046D5A311822284100AFEE03 /* UIImage+Resizing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizing.m"; sourceTree = "<group>"; };
+		0496AE8E181E20DB00C58C8A /* AirPrint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirPrint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0496AE91181E20DB00C58C8A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0496AE93181E20DB00C58C8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0496AE95181E20DB00C58C8A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0496AE99181E20DB00C58C8A /* AirPrint-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirPrint-Info.plist"; sourceTree = "<group>"; };
+		0496AE9B181E20DB00C58C8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0496AE9D181E20DB00C58C8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0496AE9F181E20DB00C58C8A /* AirPrint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirPrint-Prefix.pch"; sourceTree = "<group>"; };
+		0496AEA0181E20DB00C58C8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0496AEA1181E20DB00C58C8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0496AEA3181E20DB00C58C8A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0496AEA5181E20DB00C58C8A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0496AEA7181E20DB00C58C8A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0496AEAA181E20DB00C58C8A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0496AEAC181E20DB00C58C8A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0496AEAD181E20DB00C58C8A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0496AEB4181E20DB00C58C8A /* AirPrintTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirPrintTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0496AEB5181E20DB00C58C8A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0496AEBD181E20DB00C58C8A /* AirPrintTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirPrintTests-Info.plist"; sourceTree = "<group>"; };
+		0496AEBF181E20DB00C58C8A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0496AEC1181E20DB00C58C8A /* AirPrintTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AirPrintTests.h; sourceTree = "<group>"; };
+		0496AEC2181E20DB00C58C8A /* AirPrintTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AirPrintTests.m; sourceTree = "<group>"; };
+		049FEC23181F544E00EC46B9 /* PageRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageRenderer.h; sourceTree = "<group>"; };
+		049FEC24181F544E00EC46B9 /* PageRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageRenderer.m; sourceTree = "<group>"; };
+		049FEC2A181F8B7700EC46B9 /* QRCode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QRCode.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0496AE8B181E20DB00C58C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045D87D21821086300E690FA /* QuartzCore.framework in Frameworks */,
+				0496AE92181E20DB00C58C8A /* UIKit.framework in Frameworks */,
+				0496AE94181E20DB00C58C8A /* Foundation.framework in Frameworks */,
+				0496AE96181E20DB00C58C8A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0496AEB0181E20DB00C58C8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496AEB6181E20DB00C58C8A /* SenTestingKit.framework in Frameworks */,
+				0496AEB7181E20DB00C58C8A /* UIKit.framework in Frameworks */,
+				0496AEB8181E20DB00C58C8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046D5A2F1822275500AFEE03 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				046D5A2D1821F9DD00AFEE03 /* ticketTemplate.html */,
+				049FEC2A181F8B7700EC46B9 /* QRCode.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		0496AE85181E20DB00C58C8A = {
+			isa = PBXGroup;
+			children = (
+				0496AE97181E20DB00C58C8A /* AirPrint */,
+				0496AEBB181E20DB00C58C8A /* AirPrintTests */,
+				0496AE90181E20DB00C58C8A /* Frameworks */,
+				0496AE8F181E20DB00C58C8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0496AE8F181E20DB00C58C8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0496AE8E181E20DB00C58C8A /* AirPrint.app */,
+				0496AEB4181E20DB00C58C8A /* AirPrintTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0496AE90181E20DB00C58C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				045D87D11821086300E690FA /* QuartzCore.framework */,
+				0496AE91181E20DB00C58C8A /* UIKit.framework */,
+				0496AE93181E20DB00C58C8A /* Foundation.framework */,
+				0496AE95181E20DB00C58C8A /* CoreGraphics.framework */,
+				0496AEB5181E20DB00C58C8A /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0496AE97181E20DB00C58C8A /* AirPrint */ = {
+			isa = PBXGroup;
+			children = (
+				0496AEA0181E20DB00C58C8A /* AppDelegate.h */,
+				0496AEA1181E20DB00C58C8A /* AppDelegate.m */,
+				0496AEA9181E20DB00C58C8A /* MainStoryboard.storyboard */,
+				0496AEAC181E20DB00C58C8A /* ViewController.h */,
+				0496AEAD181E20DB00C58C8A /* ViewController.m */,
+				049FEC23181F544E00EC46B9 /* PageRenderer.h */,
+				049FEC24181F544E00EC46B9 /* PageRenderer.m */,
+				046D5A301822284100AFEE03 /* UIImage+Resizing.h */,
+				046D5A311822284100AFEE03 /* UIImage+Resizing.m */,
+				046D5A2F1822275500AFEE03 /* Resource */,
+				0496AE98181E20DB00C58C8A /* Supporting Files */,
+			);
+			path = AirPrint;
+			sourceTree = "<group>";
+		};
+		0496AE98181E20DB00C58C8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0496AE99181E20DB00C58C8A /* AirPrint-Info.plist */,
+				0496AE9A181E20DB00C58C8A /* InfoPlist.strings */,
+				0496AE9D181E20DB00C58C8A /* main.m */,
+				0496AE9F181E20DB00C58C8A /* AirPrint-Prefix.pch */,
+				0496AEA3181E20DB00C58C8A /* Default.png */,
+				0496AEA5181E20DB00C58C8A /* Default@2x.png */,
+				0496AEA7181E20DB00C58C8A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0496AEBB181E20DB00C58C8A /* AirPrintTests */ = {
+			isa = PBXGroup;
+			children = (
+				0496AEC1181E20DB00C58C8A /* AirPrintTests.h */,
+				0496AEC2181E20DB00C58C8A /* AirPrintTests.m */,
+				0496AEBC181E20DB00C58C8A /* Supporting Files */,
+			);
+			path = AirPrintTests;
+			sourceTree = "<group>";
+		};
+		0496AEBC181E20DB00C58C8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0496AEBD181E20DB00C58C8A /* AirPrintTests-Info.plist */,
+				0496AEBE181E20DB00C58C8A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0496AE8D181E20DB00C58C8A /* AirPrint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0496AEC6181E20DB00C58C8A /* Build configuration list for PBXNativeTarget "AirPrint" */;
+			buildPhases = (
+				0496AE8A181E20DB00C58C8A /* Sources */,
+				0496AE8B181E20DB00C58C8A /* Frameworks */,
+				0496AE8C181E20DB00C58C8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirPrint;
+			productName = AirPrint;
+			productReference = 0496AE8E181E20DB00C58C8A /* AirPrint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0496AEB3181E20DB00C58C8A /* AirPrintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0496AEC9181E20DB00C58C8A /* Build configuration list for PBXNativeTarget "AirPrintTests" */;
+			buildPhases = (
+				0496AEAF181E20DB00C58C8A /* Sources */,
+				0496AEB0181E20DB00C58C8A /* Frameworks */,
+				0496AEB1181E20DB00C58C8A /* Resources */,
+				0496AEB2181E20DB00C58C8A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0496AEBA181E20DB00C58C8A /* PBXTargetDependency */,
+			);
+			name = AirPrintTests;
+			productName = AirPrintTests;
+			productReference = 0496AEB4181E20DB00C58C8A /* AirPrintTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0496AE86181E20DB00C58C8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = KKBOX;
+			};
+			buildConfigurationList = 0496AE89181E20DB00C58C8A /* Build configuration list for PBXProject "AirPrint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0496AE85181E20DB00C58C8A;
+			productRefGroup = 0496AE8F181E20DB00C58C8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0496AE8D181E20DB00C58C8A /* AirPrint */,
+				0496AEB3181E20DB00C58C8A /* AirPrintTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0496AE8C181E20DB00C58C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496AE9C181E20DB00C58C8A /* InfoPlist.strings in Resources */,
+				0496AEA4181E20DB00C58C8A /* Default.png in Resources */,
+				0496AEA6181E20DB00C58C8A /* Default@2x.png in Resources */,
+				0496AEA8181E20DB00C58C8A /* Default-568h@2x.png in Resources */,
+				0496AEAB181E20DB00C58C8A /* MainStoryboard.storyboard in Resources */,
+				049FEC2B181F8B7700EC46B9 /* QRCode.png in Resources */,
+				046D5A2E1821F9DD00AFEE03 /* ticketTemplate.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0496AEB1181E20DB00C58C8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496AEC0181E20DB00C58C8A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0496AEB2181E20DB00C58C8A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0496AE8A181E20DB00C58C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496AE9E181E20DB00C58C8A /* main.m in Sources */,
+				0496AEA2181E20DB00C58C8A /* AppDelegate.m in Sources */,
+				0496AEAE181E20DB00C58C8A /* ViewController.m in Sources */,
+				049FEC25181F544E00EC46B9 /* PageRenderer.m in Sources */,
+				046D5A321822284100AFEE03 /* UIImage+Resizing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0496AEAF181E20DB00C58C8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0496AEC3181E20DB00C58C8A /* AirPrintTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0496AEBA181E20DB00C58C8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0496AE8D181E20DB00C58C8A /* AirPrint */;
+			targetProxy = 0496AEB9181E20DB00C58C8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0496AE9A181E20DB00C58C8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0496AE9B181E20DB00C58C8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0496AEA9181E20DB00C58C8A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0496AEAA181E20DB00C58C8A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		0496AEBE181E20DB00C58C8A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0496AEBF181E20DB00C58C8A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0496AEC4181E20DB00C58C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0496AEC5181E20DB00C58C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0496AEC7181E20DB00C58C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPrint/AirPrint-Prefix.pch";
+				INFOPLIST_FILE = "AirPrint/AirPrint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0496AEC8181E20DB00C58C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPrint/AirPrint-Prefix.pch";
+				INFOPLIST_FILE = "AirPrint/AirPrint-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0496AECA181E20DB00C58C8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirPrint.app/AirPrint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPrint/AirPrint-Prefix.pch";
+				INFOPLIST_FILE = "AirPrintTests/AirPrintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0496AECB181E20DB00C58C8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AirPrint.app/AirPrint";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirPrint/AirPrint-Prefix.pch";
+				INFOPLIST_FILE = "AirPrintTests/AirPrintTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0496AE89181E20DB00C58C8A /* Build configuration list for PBXProject "AirPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0496AEC4181E20DB00C58C8A /* Debug */,
+				0496AEC5181E20DB00C58C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0496AEC6181E20DB00C58C8A /* Build configuration list for PBXNativeTarget "AirPrint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0496AEC7181E20DB00C58C8A /* Debug */,
+				0496AEC8181E20DB00C58C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0496AEC9181E20DB00C58C8A /* Build configuration list for PBXNativeTarget "AirPrintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0496AECA181E20DB00C58C8A /* Debug */,
+				0496AECB181E20DB00C58C8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0496AE86181E20DB00C58C8A /* Project object */;
+}

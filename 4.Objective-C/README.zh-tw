@@ -1,0 +1,2 @@
+執行 configure 可以產生所有的 make files。
+執行 runall 可以執行所有資料夾裡的程式並將輸出儲存至各別資料夾的 output 檔案。

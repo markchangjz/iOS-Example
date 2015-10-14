@@ -1,0 +1,374 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0BDFB1167D8CCC00DFE4FD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0BDFB0167D8CCC00DFE4FD /* UIKit.framework */; };
+		3A0BDFB3167D8CCC00DFE4FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0BDFB2167D8CCC00DFE4FD /* Foundation.framework */; };
+		3A0BDFB5167D8CCC00DFE4FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A0BDFB4167D8CCC00DFE4FD /* CoreGraphics.framework */; };
+		3A0BDFBB167D8CCC00DFE4FD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BDFB9167D8CCC00DFE4FD /* InfoPlist.strings */; };
+		3A0BDFBD167D8CCC00DFE4FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BDFBC167D8CCC00DFE4FD /* main.m */; };
+		3A0BDFC1167D8CCC00DFE4FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BDFC0167D8CCC00DFE4FD /* AppDelegate.m */; };
+		3A0BDFC4167D8CCC00DFE4FD /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0BDFC2167D8CCC00DFE4FD /* MainStoryboard_iPhone.storyboard */; };
+		3A0BDFCF167D8DC000DFE4FD /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BDFCE167D8DC000DFE4FD /* CoreDataTableViewController.m */; };
+		3A0BDFD3167D8DCA00DFE4FD /* FlickrFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BDFD2167D8DCA00DFE4FD /* FlickrFetcher.m */; };
+		3A0BDFD6167D8E5D00DFE4FD /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BDFD5167D8E5D00DFE4FD /* ImageViewController.m */; };
+		3A0BDFD9167D8F5700DFE4FD /* PhotographersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BDFD8167D8F5700DFE4FD /* PhotographersTableViewController.m */; };
+		3A0BDFDF167D910600DFE4FD /* PhotosByPhotographerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BDFDE167D910600DFE4FD /* PhotosByPhotographerTableViewController.m */; };
+		3A0BDFEE167D9DA400DFE4FD /* Photomania.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A0BDFEC167D9DA400DFE4FD /* Photomania.xcdatamodeld */; };
+		3A5360E6167DA4A70068E391 /* Photo.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5360E5167DA4A70068E391 /* Photo.m */; };
+		3A5360EA167DA4A70068E391 /* Photographer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5360E9167DA4A70068E391 /* Photographer.m */; };
+		3A5360ED167DA5AA0068E391 /* Photo+Flickr.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5360EC167DA5AA0068E391 /* Photo+Flickr.m */; };
+		3A5360F0167DAC0E0068E391 /* Photographer+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A5360EF167DAC0E0068E391 /* Photographer+Create.m */; };
+		3A5360F2167DB34C0068E391 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5360F1167DB34C0068E391 /* CoreData.framework */; };
+		3AF2F922167F09C000495BC3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF2F921167F09C000495BC3 /* MainStoryboard_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A0BDFAC167D8CCC00DFE4FD /* Photomania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photomania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0BDFB0167D8CCC00DFE4FD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3A0BDFB2167D8CCC00DFE4FD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3A0BDFB4167D8CCC00DFE4FD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3A0BDFB8167D8CCC00DFE4FD /* Photomania-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Photomania-Info.plist"; sourceTree = "<group>"; };
+		3A0BDFBA167D8CCC00DFE4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3A0BDFBC167D8CCC00DFE4FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3A0BDFBE167D8CCC00DFE4FD /* Photomania-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Photomania-Prefix.pch"; sourceTree = "<group>"; };
+		3A0BDFBF167D8CCC00DFE4FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3A0BDFC0167D8CCC00DFE4FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3A0BDFC3167D8CCC00DFE4FD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		3A0BDFCD167D8DC000DFE4FD /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		3A0BDFCE167D8DC000DFE4FD /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		3A0BDFD0167D8DCA00DFE4FD /* FlickrAPIKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrAPIKey.h; sourceTree = "<group>"; };
+		3A0BDFD1167D8DCA00DFE4FD /* FlickrFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrFetcher.h; sourceTree = "<group>"; };
+		3A0BDFD2167D8DCA00DFE4FD /* FlickrFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrFetcher.m; sourceTree = "<group>"; };
+		3A0BDFD4167D8E5D00DFE4FD /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		3A0BDFD5167D8E5D00DFE4FD /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		3A0BDFD7167D8F5700DFE4FD /* PhotographersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotographersTableViewController.h; sourceTree = "<group>"; };
+		3A0BDFD8167D8F5700DFE4FD /* PhotographersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotographersTableViewController.m; sourceTree = "<group>"; };
+		3A0BDFDD167D910600DFE4FD /* PhotosByPhotographerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotosByPhotographerTableViewController.h; sourceTree = "<group>"; };
+		3A0BDFDE167D910600DFE4FD /* PhotosByPhotographerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotosByPhotographerTableViewController.m; sourceTree = "<group>"; };
+		3A0BDFED167D9DA400DFE4FD /* Photomania.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Photomania.xcdatamodel; sourceTree = "<group>"; };
+		3A5360E4167DA4A70068E391 /* Photo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
+		3A5360E5167DA4A70068E391 /* Photo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo.m; sourceTree = "<group>"; };
+		3A5360E8167DA4A70068E391 /* Photographer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photographer.h; sourceTree = "<group>"; };
+		3A5360E9167DA4A70068E391 /* Photographer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photographer.m; sourceTree = "<group>"; };
+		3A5360EB167DA5AA0068E391 /* Photo+Flickr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photo+Flickr.h"; sourceTree = "<group>"; };
+		3A5360EC167DA5AA0068E391 /* Photo+Flickr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photo+Flickr.m"; sourceTree = "<group>"; };
+		3A5360EE167DAC0E0068E391 /* Photographer+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Photographer+Create.h"; sourceTree = "<group>"; };
+		3A5360EF167DAC0E0068E391 /* Photographer+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Photographer+Create.m"; sourceTree = "<group>"; };
+		3A5360F1167DB34C0068E391 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3AF2F921167F09C000495BC3 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A0BDFA9167D8CCC00DFE4FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5360F2167DB34C0068E391 /* CoreData.framework in Frameworks */,
+				3A0BDFB1167D8CCC00DFE4FD /* UIKit.framework in Frameworks */,
+				3A0BDFB3167D8CCC00DFE4FD /* Foundation.framework in Frameworks */,
+				3A0BDFB5167D8CCC00DFE4FD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0BDFA1167D8CCC00DFE4FD = {
+			isa = PBXGroup;
+			children = (
+				3A0BDFB6167D8CCC00DFE4FD /* Photomania */,
+				3A0BDFAF167D8CCC00DFE4FD /* Frameworks */,
+				3A0BDFAD167D8CCC00DFE4FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A0BDFAD167D8CCC00DFE4FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BDFAC167D8CCC00DFE4FD /* Photomania.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A0BDFAF167D8CCC00DFE4FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A5360F1167DB34C0068E391 /* CoreData.framework */,
+				3A0BDFB0167D8CCC00DFE4FD /* UIKit.framework */,
+				3A0BDFB2167D8CCC00DFE4FD /* Foundation.framework */,
+				3A0BDFB4167D8CCC00DFE4FD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A0BDFB6167D8CCC00DFE4FD /* Photomania */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BDFBF167D8CCC00DFE4FD /* AppDelegate.h */,
+				3A0BDFC0167D8CCC00DFE4FD /* AppDelegate.m */,
+				3AF2F921167F09C000495BC3 /* MainStoryboard_iPad.storyboard */,
+				3A0BDFC2167D8CCC00DFE4FD /* MainStoryboard_iPhone.storyboard */,
+				3A0BDFCD167D8DC000DFE4FD /* CoreDataTableViewController.h */,
+				3A0BDFCE167D8DC000DFE4FD /* CoreDataTableViewController.m */,
+				3A0BDFD4167D8E5D00DFE4FD /* ImageViewController.h */,
+				3A0BDFD5167D8E5D00DFE4FD /* ImageViewController.m */,
+				3A0BDFD7167D8F5700DFE4FD /* PhotographersTableViewController.h */,
+				3A0BDFD8167D8F5700DFE4FD /* PhotographersTableViewController.m */,
+				3A0BDFDD167D910600DFE4FD /* PhotosByPhotographerTableViewController.h */,
+				3A0BDFDE167D910600DFE4FD /* PhotosByPhotographerTableViewController.m */,
+				3A0BDFEC167D9DA400DFE4FD /* Photomania.xcdatamodeld */,
+				3A5360E8167DA4A70068E391 /* Photographer.h */,
+				3A5360E9167DA4A70068E391 /* Photographer.m */,
+				3A5360E4167DA4A70068E391 /* Photo.h */,
+				3A5360E5167DA4A70068E391 /* Photo.m */,
+				3A5360EB167DA5AA0068E391 /* Photo+Flickr.h */,
+				3A5360EC167DA5AA0068E391 /* Photo+Flickr.m */,
+				3A5360EE167DAC0E0068E391 /* Photographer+Create.h */,
+				3A5360EF167DAC0E0068E391 /* Photographer+Create.m */,
+				3AE6C410167DF43000B568D6 /* Flickr */,
+				3A0BDFB7167D8CCC00DFE4FD /* Supporting Files */,
+			);
+			path = Photomania;
+			sourceTree = "<group>";
+		};
+		3A0BDFB7167D8CCC00DFE4FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BDFB8167D8CCC00DFE4FD /* Photomania-Info.plist */,
+				3A0BDFB9167D8CCC00DFE4FD /* InfoPlist.strings */,
+				3A0BDFBC167D8CCC00DFE4FD /* main.m */,
+				3A0BDFBE167D8CCC00DFE4FD /* Photomania-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AE6C410167DF43000B568D6 /* Flickr */ = {
+			isa = PBXGroup;
+			children = (
+				3A0BDFD0167D8DCA00DFE4FD /* FlickrAPIKey.h */,
+				3A0BDFD1167D8DCA00DFE4FD /* FlickrFetcher.h */,
+				3A0BDFD2167D8DCA00DFE4FD /* FlickrFetcher.m */,
+			);
+			name = Flickr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A0BDFAB167D8CCC00DFE4FD /* Photomania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0BDFCA167D8CCC00DFE4FD /* Build configuration list for PBXNativeTarget "Photomania" */;
+			buildPhases = (
+				3A0BDFA8167D8CCC00DFE4FD /* Sources */,
+				3A0BDFA9167D8CCC00DFE4FD /* Frameworks */,
+				3A0BDFAA167D8CCC00DFE4FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Photomania;
+			productName = Photomania;
+			productReference = 3A0BDFAC167D8CCC00DFE4FD /* Photomania.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A0BDFA3167D8CCC00DFE4FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = JzChang;
+			};
+			buildConfigurationList = 3A0BDFA6167D8CCC00DFE4FD /* Build configuration list for PBXProject "Photomania" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3A0BDFA1167D8CCC00DFE4FD;
+			productRefGroup = 3A0BDFAD167D8CCC00DFE4FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A0BDFAB167D8CCC00DFE4FD /* Photomania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A0BDFAA167D8CCC00DFE4FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0BDFBB167D8CCC00DFE4FD /* InfoPlist.strings in Resources */,
+				3A0BDFC4167D8CCC00DFE4FD /* MainStoryboard_iPhone.storyboard in Resources */,
+				3AF2F922167F09C000495BC3 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A0BDFA8167D8CCC00DFE4FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0BDFBD167D8CCC00DFE4FD /* main.m in Sources */,
+				3A0BDFC1167D8CCC00DFE4FD /* AppDelegate.m in Sources */,
+				3A0BDFCF167D8DC000DFE4FD /* CoreDataTableViewController.m in Sources */,
+				3A0BDFD3167D8DCA00DFE4FD /* FlickrFetcher.m in Sources */,
+				3A0BDFD6167D8E5D00DFE4FD /* ImageViewController.m in Sources */,
+				3A0BDFD9167D8F5700DFE4FD /* PhotographersTableViewController.m in Sources */,
+				3A0BDFDF167D910600DFE4FD /* PhotosByPhotographerTableViewController.m in Sources */,
+				3A0BDFEE167D9DA400DFE4FD /* Photomania.xcdatamodeld in Sources */,
+				3A5360E6167DA4A70068E391 /* Photo.m in Sources */,
+				3A5360EA167DA4A70068E391 /* Photographer.m in Sources */,
+				3A5360ED167DA5AA0068E391 /* Photo+Flickr.m in Sources */,
+				3A5360F0167DAC0E0068E391 /* Photographer+Create.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3A0BDFB9167D8CCC00DFE4FD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0BDFBA167D8CCC00DFE4FD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3A0BDFC2167D8CCC00DFE4FD /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3A0BDFC3167D8CCC00DFE4FD /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3A0BDFC8167D8CCC00DFE4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3A0BDFC9167D8CCC00DFE4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A0BDFCB167D8CCC00DFE4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photomania/Photomania-Prefix.pch";
+				INFOPLIST_FILE = "Photomania/Photomania-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3A0BDFCC167D8CCC00DFE4FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Photomania/Photomania-Prefix.pch";
+				INFOPLIST_FILE = "Photomania/Photomania-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A0BDFA6167D8CCC00DFE4FD /* Build configuration list for PBXProject "Photomania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0BDFC8167D8CCC00DFE4FD /* Debug */,
+				3A0BDFC9167D8CCC00DFE4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0BDFCA167D8CCC00DFE4FD /* Build configuration list for PBXNativeTarget "Photomania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0BDFCB167D8CCC00DFE4FD /* Debug */,
+				3A0BDFCC167D8CCC00DFE4FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A0BDFEC167D9DA400DFE4FD /* Photomania.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A0BDFED167D9DA400DFE4FD /* Photomania.xcdatamodel */,
+			);
+			currentVersion = 3A0BDFED167D9DA400DFE4FD /* Photomania.xcdatamodel */;
+			path = Photomania.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A0BDFA3167D8CCC00DFE4FD /* Project object */;
+}
