@@ -1,11 +1,3 @@
-//
-//  TableViewController.m
-//  TableView
-//
-//  Created by EE Lab on 12/7/15.
-//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
-//
-
 #import "TableViewController.h"
 #import "ShowViewController.h"
 
@@ -16,16 +8,6 @@
 @implementation TableViewController
 @synthesize data;
 
-- (id)initWithStyle:(UITableViewStyle)style
-{
-    self = [super initWithStyle:style];
-    if (self) {
-        // Custom initialization
-    }
-
-    return self;
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -35,11 +17,6 @@
     [data setValue:[NSMutableArray arrayWithObjects:@"1a", @"1b", @"1c", @"1d", @"1e", @"1f", nil] forKey:@"KEY 1"];
     [data setValue:[NSMutableArray arrayWithObjects:@"2a", nil] forKey:@"KEY 2"];
     data[@"KEY 3"] = [NSMutableArray arrayWithArray:@[@"3a", @"3b"]];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    return YES;
 }
 
 #pragma mark - Table view data source
