@@ -58,8 +58,13 @@
 - (void)setBarButtonItems
 {
     UIBarButtonItem *addBtn = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addItem)];
+    [addBtn setAccessibilityLabel:@"Add"];
+    
     UIBarButtonItem *editBtn = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonItemStyleBordered target:self action:@selector(enterEditMode)];
+    [editBtn setAccessibilityLabel:@"Edit"];
+    
     UIBarButtonItem *doneBtn = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(leaveEditMode)];
+    [doneBtn setAccessibilityLabel:@"Done"];
     
     self.navigationItem.leftBarButtonItem = addBtn;
     self.navigationItem.rightBarButtonItem = self.tableView.isEditing ? doneBtn : editBtn;
@@ -100,7 +105,7 @@
     
     self.ascending = !self.ascending;
     
-    [self performSelector:@selector(updateTable) withObject:nil afterDelay:10];
+    [self performSelector:@selector(updateTable) withObject:nil afterDelay:2];
 }
 
 - (void)updateTable

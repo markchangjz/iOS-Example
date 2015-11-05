@@ -50,8 +50,7 @@
                                           UIViewAutoresizingFlexibleBottomMargin);
         
         [_detailDescriptionLabel setTextAlignment:NSTextAlignmentCenter];
-        
-        
+        [_detailDescriptionLabel setAccessibilityIdentifier:@"detailLabel"];
     }
     return _detailDescriptionLabel;
 }
@@ -80,6 +79,5 @@
     self.detailDescriptionLabel.center = self.view.center;
 
 }
-
 
 @end
