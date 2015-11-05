@@ -58,8 +58,8 @@
 - (void)setBarButtonItems
 {
     UIBarButtonItem *addBtn = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(addItem)];
-    UIBarButtonItem *editBtn = [[UIBarButtonItem alloc] initWithTitle:@"編輯" style:UIBarButtonItemStyleBordered target:self action:@selector(enterEditMode)];
-    UIBarButtonItem *doneBtn = [[UIBarButtonItem alloc] initWithTitle:@"完成" style:UIBarButtonItemStyleDone target:self action:@selector(leaveEditMode)];
+    UIBarButtonItem *editBtn = [[UIBarButtonItem alloc] initWithTitle:@"Edit" style:UIBarButtonItemStyleBordered target:self action:@selector(enterEditMode)];
+    UIBarButtonItem *doneBtn = [[UIBarButtonItem alloc] initWithTitle:@"Done" style:UIBarButtonItemStyleDone target:self action:@selector(leaveEditMode)];
     
     self.navigationItem.leftBarButtonItem = addBtn;
     self.navigationItem.rightBarButtonItem = self.tableView.isEditing ? doneBtn : editBtn;
@@ -81,11 +81,11 @@
 
 - (void)addItem
 {
-    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"新增項目"
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"New Item"
                                                         message:nil
                                                        delegate:self
-                                              cancelButtonTitle:@"取消"
-                                              otherButtonTitles:@"新增", nil];
+                                              cancelButtonTitle:@"Cancel"
+                                              otherButtonTitles:@"Add", nil];
     
     [alertView setAlertViewStyle:UIAlertViewStylePlainTextInput]; // 設定 Alert View 顯示一個 TextField
     [alertView show];
