@@ -1,13 +1,4 @@
-//
-//  MasterViewController.m
-//  Refresher
-//
-//  Created by JzChang on 13/2/19.
-//  Copyright (c) 2013年 JzChang. All rights reserved.
-//
-
 #import "MasterViewController.h"
-
 #import "DetailViewController.h"
 
 @interface MasterViewController () <UIAlertViewDelegate, UISearchDisplayDelegate> {
@@ -295,7 +286,7 @@
             
             self.objects = [self.objects sortedArrayUsingDescriptors:@[[[NSSortDescriptor alloc] initWithKey:nil ascending:!self.ascending]]];
             
-            NSLog(@"index at %d", [self.objects indexOfObject:[[alertView textFieldAtIndex:0] text]]);
+            NSLog(@"index at %ld", [self.objects indexOfObject:[[alertView textFieldAtIndex:0] text]]);
             
             NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[self.objects indexOfObject:[[alertView textFieldAtIndex:0] text]] inSection:0];
             [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
